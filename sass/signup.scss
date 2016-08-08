@@ -1,0 +1,55 @@
+.container-fluid {
+  background: #f3f3f3;
+  color: #222;
+  padding: 20px;
+}
+
+.bar-header {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    .logo-bar {
+        position: relative;
+        background-image: linear-gradient(to right, #2dbe60, #0185a6);
+        height: 5px;
+        width: 100%;
+        z-index: 3;
+    }
+}
+.logo-sign {
+  display: block;
+  margin: 20px auto;
+}
+img {
+  @extend .logo-sign;
+}
+.box-sign {
+    max-width: 384px;
+    margin: 0 auto 28px;
+    padding: 20px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    .btn-login {
+      width: 100%;
+    }
+    label {
+      margin-left: 2s1px;
+      // padding: 15px;
+    }
+    input {
+      @media (max-width:400px) {
+        width:100%;
+      }
+      display:block;
+      width:300px;
+      margin: 0 auto 20px;
+      padding:10px;
+      background: #fff;
+      border: 1px solid #dedede;
+      &:focus, &:active {
+        outline:none;
+      }
+    }
+}
