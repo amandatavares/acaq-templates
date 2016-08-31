@@ -1,0 +1,20 @@
+.bar-header {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.bar-header .logo-bar {
+    position: relative;
+    background-color: #2dbe60;
+    height: 4px;
+    width: 100%;
+    z-index: 3;
+}
+body {    background: #f3f3f3;}
+.box-login {
+    max-width: 384px;
+    margin: 0 auto 28px;
+    border: 1px solid #dedede;
+}
