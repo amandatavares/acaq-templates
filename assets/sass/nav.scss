@@ -1,0 +1,30 @@
+// Components
+.btn-trans {
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-acaq {
+  background-color: $default;
+  min-height: 80px;
+
+  .navbar-form {
+    margin-left: 50%;
+  }
+  .navbar-brand {
+    .navbar-logo {
+      width: 100px;
+      height: 50px;
+    }
+  }
+  .navbar-right {
+    .dropdown {
+      .user-icon {
+        display: inline-block;
+        border-radius: 100%;
+        width:50px;
+        height: 50px;
+      }
+    }
+  }
+}
